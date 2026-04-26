@@ -1,1 +1,16 @@
+title: Radar do Mercado
+description: Conteúdo automatizado e atualizado diariamente
+baseurl: ""
+url: "https://marcodaher-diario.github.io"
 
+theme: minima
+
+plugins:
+  - jekyll-feed
+  - jekyll-seo-tag
+
+permalink: /:title/
+
+collections:
+  posts:
+    output: true
